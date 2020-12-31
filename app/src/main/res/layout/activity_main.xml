@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Please Enter First Number"
+        android:inputType="numberSigned"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Please Enter Second Number"
+        android:inputType="numberSigned"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:text="+"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="50dp" />
+
+    <Button
+        android:id="@+id/btnSubstract"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:text="-"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:text="*"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:text="/"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
