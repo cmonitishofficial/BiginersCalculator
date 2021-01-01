@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4184C6"
     android:orientation="vertical"
     android:paddingLeft="50dp"
     android:paddingRight="50dp"
@@ -50,35 +51,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#000000"
         android:text="@string/Add"
+        android:textColor="#FFC107"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#000000" />
 
     <Button
         android:id="@+id/btnSubstract"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#000000"
         android:text="@string/Substract"
+        android:textColor="#FFC107"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#000000" />
 
     <Button
         android:id="@+id/btnMultiply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#000000"
         android:text="@string/Multiply"
+        android:textColor="#FFC107"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#000000" />
 
     <Button
         android:id="@+id/btnDivide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#000000"
         android:text="@string/Divide"
+        android:textColor="#FFC107"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#000000" />
 
 </LinearLayout>
