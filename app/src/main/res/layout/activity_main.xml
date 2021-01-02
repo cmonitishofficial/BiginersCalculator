@@ -39,7 +39,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="#000000"
-        android:text="@string/Substract"
+        android:text="@string/SubsTract"
         android:textColor="#FFC107"
         android:textSize="18sp"
         android:textStyle="bold"
